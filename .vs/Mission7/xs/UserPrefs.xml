@@ -1,5 +1,5 @@
 ﻿<Properties StartupConfiguration="{A68BA16E-9984-4A1B-BDA6-D65744610777}|Default">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Mission7/Views/Shared/_Layout.cshtml">
     <Files>
       <File FileName="Mission7/Views/Home/Index.cshtml" Line="21" Column="59" />
       <File FileName="Mission7/Views/Shared/_Layout.cshtml" Line="19" Column="27" />

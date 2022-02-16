@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Little Corner Bookstore</title>
+    <link href="~/lib/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chivo:wght@300&family=Crimson+Pro&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="bg-dark text-white p-2">
+        <span class="navbar-brand ml-2" style="font-family:Chivo">Little Corner Bookstore</span>
+    </div>
+    <div class="row m-1 p-1">
+        <div id="categories" class="col-3" style="font-family:Chivo">
+            Look around and find your next adventure!
+        </div>
+        <div class="col-9">
+            @RenderBody()
+        </div>
+    </div>
+</body>
+</html>
